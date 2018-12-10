@@ -1,25 +1,65 @@
-/*css styling*/
-header {
+/*css document*/
+
+header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  color: MediumAquamarine
-
 }
 
-flex-container {
-
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding: 30px;
 }
 
-.logo h3 {
-      ;
+.logo image{
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+.logo span{
+  color: mediumAquamarine;
 }
 
-.nav {
-  display: inline-block;
-
+header nav{
+  padding-right: 40px;
 }
-
-ul {
-  list-style-type: none;
+a {
+  color: black;
+  }
+/*main conetent */
+.content{
+  display: flex;
+  width: 1300px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 70px;
+  margin-left: auto;
+  padding-top: 116px;
+}
+div{
+  border: 1px solid black;
+}
+.colum{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.colum.large{
+  width: 630px;
+}
+.colum.medium {
+  width: 300px;
+}
+.colum.small{
+  width: 240px;
 }
