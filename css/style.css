@@ -1,0 +1,25 @@
+/*css styling*/
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine
+
+}
+
+flex-container {
+
+}
+
+.logo h3 {
+      ;
+}
+
+.nav {
+  display: inline-block;
+
+}
+
+ul {
+  list-style-type: none;
+}
